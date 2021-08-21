@@ -1,0 +1,24 @@
+.places {
+  max-width: 984px;
+  margin: 92px auto;
+}
+
+@media all and (max-width: 1220px) {
+  .places {
+    max-width: 928px;
+  }
+}
+
+@media all and (max-width: 950px) {
+  .places {
+    max-width: 720px;
+    margin: 88px auto;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .place__website {
+    margin-left: 16px;
+    align-self: flex-start;
+  }
+}

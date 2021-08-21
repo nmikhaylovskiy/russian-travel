@@ -18,9 +18,8 @@
 
 @media screen and (max-width: 950px) {
   .photo-grid {
-      background-color: red;
     max-width: 720px;
-    margin-top:88px;
+    margin-top: 88px;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
