@@ -9,6 +9,7 @@
 
   font-size: 96px;
   padding-top: 56px;
+  max-width: 720px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,14 +22,13 @@
   .lead__title {
     font-size: 65px;
     line-height: 70px;
-    padding-top: 48px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .lead__title {
     font-size: 40px;
-    padding-top: 48px;
     line-height: 44px;
+    max-width: 288px;
   }
 }

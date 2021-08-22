@@ -1,7 +1,3 @@
-@import url("../header/__lang/header__lang.css");
-@import url("../header/__lang-link/header__lang-link.css");
-@import url("../header/__logo/header__logo.css");
-
 .header {
   width: 100%;
   display: flex;

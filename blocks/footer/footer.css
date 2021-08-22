@@ -1,10 +1,5 @@
-@import url("../footer/__nav/footer__nav.css");
-@import url("../footer/__link/footer__link.css");
-@import url("../footer/__copyright/footer__copyright.css");
-@import url("../footer/__item/footer__item.css");
-
 .footer {
-  margin-top: 160px;
+  margin-top: 92px;
   margin-bottom: 48px;
   margin-right: 48px;
   margin-left: 48px;
@@ -13,10 +8,17 @@
   justify-content: space-between;
 }
 
-
+@media screen and (max-width: 950px) {
+  .footer {
+    margin-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
 
 @media screen and (max-width: 760px) {
   .footer {
+    margin-top: 64px;
     flex-direction: column;
   }
 }
